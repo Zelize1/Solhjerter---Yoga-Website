@@ -1,9 +1,5 @@
 Website for the yoga company Solhjerter AS.
 
-Admin login (http://localhost:3000/login)
-Username: Noroff
-Password: Noroff123
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
