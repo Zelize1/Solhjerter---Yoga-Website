@@ -1,0 +1,50 @@
+p {
+    font-family: $font-secondary;
+}
+
+h1, h2, h3, h4, h5, a {
+    font-family: $font-primary;
+    color: $colour-primary;
+}
+#delete-button {
+    background-color: red;
+}
+
+.button {
+    background-color: $colour-primary;
+    border-color: $colour-secondary;
+    color: $colour-secondary;
+    font-family: $font-primary;
+    width: 25%;
+    margin: auto;
+    margin-top: 40px;
+    display: block;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.button:hover {
+    background-color: #e65a25;
+    border-color: $colour-secondary;
+    color: $colour-secondary;
+    font-family: $font-primary;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.loading-div {
+    padding-top: 15%;
+    display: block;
+    margin: auto;
+    width: 15%;
+}
+
+
+@media (max-width: 1250px) {
+    .loading-div {
+        width: 30%;
+    }
+}

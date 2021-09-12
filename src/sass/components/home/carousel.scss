@@ -1,0 +1,25 @@
+.container {
+    padding: 0;
+    max-width: 100%;
+}
+
+h3 {   
+    color: white;
+    font-family: $font-primary;
+    font-size: 45px;
+}
+
+.carousel-caption {
+    top: 50%;
+transform: translateY(-50%);
+bottom: initial;
+}
+
+.carousel-indicators .active {
+    background-color: $colour-primary;
+}
+
+.carousel-text {
+    color: white;
+    text-shadow: 1px 2px black;
+}

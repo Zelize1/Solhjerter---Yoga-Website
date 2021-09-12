@@ -1,0 +1,25 @@
+.login-form {
+    display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column; 
+   flex-direction: column;
+   -webkit-align-items: center;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.login-input {
+    width: 100%;
+    margin: 10px;
+}
+
+.login-fieldset {
+    width: 30%;
+}
+
+@media (max-width: 1250px) {
+    .login-fieldset {
+        width: 80%;
+    }
+}

@@ -1,0 +1,25 @@
+.display-posts{
+    display: block;
+    margin: auto;
+    width: 60%;
+    background-color: $colour-secondary;
+    margin-top: 20px;
+}
+
+.display-posts ul li {
+    list-style-type: none;
+    text-align: left;
+    font-size: 26px;
+    margin-left: -20px;
+    padding: 5px;
+}
+
+.display-posts ul li a:hover  {
+    color: white;
+}
+
+@media (max-width:1200px) {
+    .display-posts {
+        width: 80%;
+    }
+}

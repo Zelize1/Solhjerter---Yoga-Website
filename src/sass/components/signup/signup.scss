@@ -1,0 +1,23 @@
+.form-row {
+    display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column; 
+   flex-direction: column;
+   -webkit-align-items: center;
+   align-items: center;
+   justify-content: center;
+   margin-top: 50px;
+}
+
+.form-control {
+    width: 50%;
+    margin: 10px;
+}
+
+@media (max-width: 1250px) {
+    .form-control {
+        width: 80%;
+    }
+}
+
+

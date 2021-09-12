@@ -1,0 +1,27 @@
+.course-card {
+  border-style: none;
+  width: 65%;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 60px;
+  background-color: rgba(201, 200, 200, 0.2);
+}
+
+.card-container {
+  width: 70%;
+}
+
+@media (max-width: 1250px) {
+  .card-container {
+    width: 90%;
+    margin-top: 3%;
+  }
+  #course-button {
+    width: 60%;
+  }
+  .course-card {
+    width: 100%;
+    margin-top: 25px;
+  }
+}
+/*# sourceMappingURL=courses.css.map */
